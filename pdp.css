@@ -1,0 +1,45 @@
+body{
+    background-color: cornflowerblue;
+    background-image: url(../img/Bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,H3{
+    color:blueviolet;
+    text-align: center;
+}
+H2{
+    color: cornflowerblue;
+}
+main{
+    background-color: aquamarine;
+    width: 80%;
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 30px;
+    display: flex;
+    /* justify-content: center; */
+    column-gap: 30px;
+}
+.detailsDiv{
+    align-self: center;
+}
+input[type=submit],input[type=button],button{
+    padding: 7px;
+    border: 0;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: azure;
+}
+.clicks, form{
+    width: 80%;
+    margin: 0px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.added{
+    width: 15%;
+    margin: 0px auto;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+}
+
+.topnav{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h1,H3{
+    color:blueviolet;
+    text-align: center;
+}
+input[type=submit],input[type=button],button{
+    padding: 7px;
+    border: 0;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: azure;
+}
+.clicks{
+    width: 80%;
+    margin: 0px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,73 @@
+body{
+    background-color: #7fffd4;
+    background-image: url(../img/Bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topnav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.topnav img{
+    width: 9%;
+    border-radius: 40px;
+}
+.topnav a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:cornflowerblue;
+}
+.filterSection{
+    margin-bottom: 20px;
+}
+h1,H2{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+form{
+    width: 50%;
+    margin: 0px auto;
+    padding: 30px;
+    background-color: darkturquoise;
+    box-shadow: 5px  5px 3px 0px aliceblue;
+    border-radius: 5px;
+}
+input[type=submit],input[type=button],button{
+    padding: 7px;
+    border: 0;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: azure;
+}
+#btn_add_product ,#btn_add_category{
+    margin-left: 75%;
+}
+#btn_logout{
+    background-color: red;
+}
+.listProducts{
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: darkturquoise;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0PX auto;
+}
+td,tr,th{
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.border-collapse {
+    border-collapse: collapse;
+}
+
+input, select{
+    border-radius: 5px;
+    border: 2px solid #202755;
+}

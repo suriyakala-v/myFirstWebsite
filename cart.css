@@ -1,0 +1,31 @@
+
+.topnav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.topnav img{
+    width: 9%;
+    border-radius: 40px;
+}
+
+/* .clicks, form{
+    width: 80%;
+    margin: 0px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+} */
+.display{
+    display: block;
+    width: 50%;
+    background-color: blanchedalmond;
+}
+.totalPrice{
+    color: blue;
+    width: 25%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
